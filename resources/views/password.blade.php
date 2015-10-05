@@ -57,8 +57,7 @@
         
             <div id="left" class="large-4 columns">
             
-                <!-- <div id="password-options-title">Password Options</div> -->
-                <button id="generate-button" class="button element-highlight">Get a new password!</button>
+                <button id="generate-button" class="element-highlight">Get a new password!</button>
                 
                 <h5 id="number-words-title">How many words?</h5>
                 <div id="range-slider-words" class="range-slider" data-slider data-options="initial: 4; start: 1; end: 10; step: 1;">

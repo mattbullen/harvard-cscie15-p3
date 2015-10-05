@@ -1,0 +1,134 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Halifax";
+    src: url("fonts/hallig-webfont.eot");
+    src: url("fonts/hallig-webfont.eot?#iefix") format("embedded-opentype"),
+         url("fonts/hallig-webfont.woff2") format("woff2"),
+         url("fonts/hallig-webfont.woff") format("woff"),
+         url("fonts/hallig-webfont.ttf") format("truetype"),
+         url("fonts/hallig-webfont.svg#halifaxlight") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Museo";
+    src: url("fonts/MuseoSans_500-webfont.eot");
+    src: url("fonts/MuseoSans_500-webfont.eot?#iefix") format("embedded-opentype"),
+         url("fonts/MuseoSans_500-webfont.woff2") format("woff2"),
+         url("fonts/MuseoSans_500-webfont.woff") format("woff"),
+         url("fonts/MuseoSans_500-webfont.ttf") format("truetype"),
+         url("fonts/MuseoSans_500-webfont.svg#museo_sans500") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base Elements */
+
+* {
+    font-family: Halifax, Arial, sans-serif;
+}
+
+body {
+    max-height: 95%;
+    overflow: hidden;
+    background-color: cornsilk;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Museo, Halifax, Arial, sans-serif;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+}
+
+/* Top Row */
+
+#row-header {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.row-header-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 25px 0px;
+    text-align: center;
+    border: 1px solid rgb(34, 34, 34);
+    background-color: #ffffff;
+}
+
+/* Menu Row */
+
+#row-menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.left {
+    background-color: #ffffff;
+}
+
+#button-home {
+    width: 190px;
+    border-left: 1px solid rgb(34, 34, 34);
+    border-bottom: 1px solid rgb(34, 34, 34);
+    border-right: 1px solid rgb(34, 34, 34);
+}
+
+#button-text,
+#button-users,
+#button-password {
+    width: 260px;
+    border-bottom: 1px solid rgb(34, 34, 34);
+    border-right: 1px solid rgb(34, 34, 34);
+}
+
+.button-link {
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.button-href {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Museo, Halifax, Arial, sans-serif;
+    color: rgb(34, 34, 34);
+    background-color: #fff;
+    outline: none;
+    transition: background-color 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+
+.button-href:active,
+.button-href:focus,
+.button-href:visited {
+    color: rgb(34, 34, 34);
+    background-color: #fff;
+}
+
+.button-active,
+.button-href:hover {
+    color: rgb(34, 34, 34) !important;
+    background-color: #ffec80 !important;
+}
+
+/* Content Row */
+
+#row-content {
+    overflow: hidden;
+    height: 728px;
+    width: 970px;
+    padding: 40px 15px 25px 15px;
+    border-left: 1px solid rgb(34, 34, 34);
+    border-bottom: 1px solid rgb(34, 34, 34);
+    border-right: 1px solid rgb(34, 34, 34);
+    background-color: #ffffff;
+}

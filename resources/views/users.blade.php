@@ -19,6 +19,7 @@
         <!-- CSS-->
         <link rel="stylesheet" href="{{ URL::asset('assets/css/normalize.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('assets/css/foundation.min.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/base.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('assets/css/users.css') }}">
       
     </head>

@@ -10,7 +10,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
         <meta name="description" content="CSCI E-15 Project 3 - Developer's Best Friend">
         <meta name="author" content="Matthew Bullen">
-      
+        <meta name="csrf-token" content="<?php echo csrf_token() ?>" />
+        
         <!-- Title & Favicon-->
         <title>CSCI E-15 Project 3</title>
         <link id="favicon" rel="shortcut icon" href="{{ URL::asset('assets/img/favicon.png') }}" type="image/png">
@@ -30,65 +31,29 @@
             </div>
         </div>
         
-        <div id="row-about" class="row">
+        <div id="row-menu" class="row">
             <div class="large-12 columns">
-                bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-            </div>
-        </div>
-        
-        <div id="row-text" class="row">
-        
-            <div class="large-4 columns">
+                
+                <div id="button-home" class="left button-link">
+                    <a class="button-href button-active" href="/">Home</a>
+                </div>
+                
                 <div id="button-text" class="left button-link">
                     <a class="button-href" href="/text">Lorem Ipsum Generator</a>
                 </div>
-            </div>
-            
-            <div class="large-8 columns">
-                <div class="right">
-                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                </div>
-            </div>
-            
-        </div>
-        
-        <div id="row-users" class="row">
-        
-            <div class="large-4 columns">
+                
                 <div id="button-users" class="left button-link">
                     <a class="button-href" href="/users">Random User Generator</a>
                 </div>
-            </div>
-            
-            <div class="large-8 columns">
-                <div class="right">
-                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                </div>
-            </div>
-            
-        </div>
-        
-        <div id="row-password" class="row">
-        
-            <div class="large-4 columns">
+                
                 <div id="button-password" class="left button-link">
                     <a class="button-href" href="/password">XKCD Password Generator</a>
                 </div>
+                
             </div>
-            
-            <div class="large-8 columns">
-                <div class="right">
-                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                </div>
-            </div>
+        </div>
+        
+        <div id="row-content" class="row">
             
         </div>
         

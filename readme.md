@@ -20,6 +20,7 @@ Some of the default CSS used by Foundation doesn't validate or throws warnings o
 * Laravel 5: http://laravel.com
 * Zurb Foundation 5 with accordion and modal plugins: http://foundation.zurb.com/
 * jQuery 2.1.4: https://jquery.com/download/
+* nanoScroller.js: https://github.com/jamesflorentino/nanoScrollerJS
 * Museo and Halifax fonts: http://www.fontspring.com/
 * Pre-made word list: http://www.mieliestronk.com/corncob_lowercase.txt
 * Source for web-scraped word list: http://www.paulnoll.com

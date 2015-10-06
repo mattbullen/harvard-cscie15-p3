@@ -62,7 +62,7 @@
                 
                 <h5 id="number-words-title">How many words?</h5>
                 <div id="range-slider-words" class="range-slider" data-slider data-options="initial: 4; start: 1; end: 10; step: 1;">
-                    <span id="range-button-words" class="range-slider-handle element-highlight" role="slider" tabindex="0" aria-valuemin="10" aria-valuemax="10" aria-valuenow="4"> </span>
+                    <span id="range-button-words" class="range-slider-handle element-highlight" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="10" aria-valuenow="4"> </span>
                     <span class="range-slider-active-segment"> </span>
                     <input id="quantity-words" name="quantity-words" type="hidden">
                 </div>
@@ -75,7 +75,7 @@
                 </div>
                 
                 <div id="range-slider-numbers" class="range-slider disabled" data-slider data-options="initial: 1; start: 1; end: 10; step: 1;">
-                    <span id="range-button-numbers" class="range-slider-handle element-highlight" role="slider" tabindex="0" aria-valuemin="10" aria-valuemax="10" aria-valuenow="0"> </span>
+                    <span id="range-button-numbers" class="range-slider-handle element-highlight" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"> </span>
                     <span class="range-slider-active-segment"> </span>
                     <input id="quantity-numbers" name="quantity-numbers" type="hidden">
                 </div>
@@ -86,7 +86,7 @@
                 </div>
                 
                 <div id="range-slider-special" class="range-slider disabled" data-slider data-options="initial: 1; start: 1; end: 10; step: 1;">
-                    <span id="range-button-special" class="range-slider-handle element-highlight" role="slider" tabindex="0" aria-valuemin="10" aria-valuemax="10" aria-valuenow="0"> </span>
+                    <span id="range-button-special" class="range-slider-handle element-highlight" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"> </span>
                     <span class="range-slider-active-segment"> </span>
                     <input id="quantity-special" name="quantity-special" type="hidden">
                 </div>

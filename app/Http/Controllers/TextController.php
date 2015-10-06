@@ -2,21 +2,28 @@
 
 use Request;
 use Response;
-use File;
+use Badcow\LoremIpsum\Generator as generator;
 
 class TextController extends Controller {
     
     /*
     Sources:
-       
+       https://packagist.org/packages/badcow/lorem-ipsum
     */
 
     // Main function to generate lorem ipsum text.
     public function getText() {
-        //$list = self::getBaseWords();
-        //$list = self::setWordCase($list);
-        //if (Request::has("include-numbers") && Request::input("include-numbers") === "true") { $list = self::addNumbers($list); }
-        //if (Request::has("include-special") && Request::input("include-special") === "true") { $list = self::addSpecial($list); }
-        return Response::json(array("text" => "lorem ipsum"));
+
+        $generator = new generator();
+        
+        if (Request::has("quantity") && (int) Request::input("quantity")) {
+            $number = (int) Request::input("quantity");
+        } else {
+            $number = 3;
+        }
+        
+        $paragraphs = $generator->getParagraphs($number);
+
+        return Response::json(array("text" => $paragraphs));
     }
 }

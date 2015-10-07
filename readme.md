@@ -18,8 +18,8 @@ Some of the default CSS used by Foundation doesn't validate or throws warnings o
 #### Outside code
 
 * Laravel 5: http://laravel.com
-* Lorem Ipsum Generator: https://github.com/Badcow/LoremIpsum
-* Random User Generator: https://github.com/fzaninotto/Faker
+* Lorem Ipsum generator package: https://github.com/Badcow/LoremIpsum
+* Random user generator package: https://github.com/fzaninotto/Faker
 * Zurb Foundation 5 with accordion and modal plugins: http://foundation.zurb.com/
 * jQuery 2.1.4: https://jquery.com/download/
 * nanoScroller.js: https://github.com/jamesflorentino/nanoScrollerJS

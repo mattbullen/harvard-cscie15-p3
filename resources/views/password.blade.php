@@ -58,7 +58,7 @@
         
             <div id="left" class="large-4 columns">
             
-                <button id="generate-button" class="element-highlight">Get a new password!</button>
+                <button id="button-post" class="element-highlight">Get a new password!</button>
                 
                 <h5 id="number-words-title">How many words?</h5>
                 <div id="range-slider-words" class="range-slider" data-slider data-options="initial: 4; start: 1; end: 10; step: 1;">
@@ -141,7 +141,7 @@
                     <li class="accordion-navigation">
                         <a id="panel2d-heading" class="accordion-href element-highlight" href="#panel2d"  role="tab" aria-controls="panel2d">How do I make one?</a>
                         <div id="panel2d" class="content" role="tabpanel" aria-labelledby="panel2d-heading">
-                            <p class="discussion">Pick any combination of settings, then click "Get a new password!" directly above. Your new password will be displayed in a pop-up message.</p>
+                            <p class="discussion">Pick any combination of settings, then click "Get a new password!" directly above the menu. Your new password will be displayed in a pop-up message.</p>
                         </div>
                     </li>
                     <li id="comic-panel" class="accordion-navigation">

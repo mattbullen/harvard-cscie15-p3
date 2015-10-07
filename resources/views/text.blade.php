@@ -67,7 +67,7 @@
                 </div>
                 
                 <div class="button-link element-highlight button-post">
-                    <span id="button-post" class="button-href">Get Lorem Ipsum Text!</span>
+                    <span id="button-post" class="button-href">Get lorem ipsum text!</span>
                 </div>
 
             </div>
@@ -76,10 +76,10 @@
                 <div id="content" class="nano">
                     <div id="result" class="nano-content">
                         <div id="description">
-                            <h3 id="description-title">How to use the <em>Lorem Ipsum</em> Generator</h3>
+                            <h3 id="description-title">Using the <em>Lorem Ipsum</em> Generator</h3>
                             <div id="description-content">
-                                <p class="description-content-paragraph">It's very easy . . . use the slider above to select the number of paragraphs to generate. The generator defaults to three paragraphs, but you can select up to twenty paragraphs.</p>
-                                <p class="description-content-paragraph">Then click "Get Lorem Ipsum Text!" and the new text content will be displayed in this panel. The text is left-click selectable and will scroll for easier copy/paste.</p>
+                                <p class="description-content-paragraph">Use the slider above to select the number of paragraphs to generate. The generator defaults to three paragraphs, but you can select up to twenty.</p>
+                                <p class="description-content-paragraph">Then click the "Get lorem ipsum text!" button, and the new text content will be displayed in this panel. The text is left-click selectable and will scroll for easier copy/paste.</p>
                             </div>
                         </div>
                     </div>

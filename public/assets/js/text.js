@@ -33,7 +33,7 @@ function showLoadingGIF() {
 
 // Hide the loading GIF after receiving a response to a POST request to the server.
 function hideLoadingGIF() {
-    window.setTimeout(function() { $("#button-post").css({"background": ""}).html("Get Lorem Ipsum Text!").prop("disabled", false); }, 100);
+    window.setTimeout(function() { $("#button-post").css({"background": ""}).html("Get lorem ipsum text!").prop("disabled", false); }, 100);
 }
 
 // Get the input element value for the POST request to the server.
@@ -95,5 +95,4 @@ function setTextRequest() {
             }
         });
     });
-    
 }

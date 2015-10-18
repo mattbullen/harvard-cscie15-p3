@@ -55,12 +55,14 @@ function showSuccessMessage(text) {
     for (var i = 0; i < text.length; i++) {
         content += '<p class="lorem">' + text[i] + '</p>';
     }
-    $("#result").html(content);
+    $("#result").fadeOut();
+    window.setTimeout(function() { $("#result").html(content).fadeIn() }, 300);
 }
 
 // Display an error message if a POST request was not successful.
 function showErrorMessage() {
-    $("#result").html('<p class="error">Server error! Try again later.</p>');
+    $("#result").fadeOut();
+    window.setTimeout(function() { $("#result").html('<p class="error">Server error! Try again later.</p>').fadeIn() }, 300);
 }
 
 // Set the set button functionality to request some lorem ipsum text.
@@ -95,7 +97,7 @@ function setTextRequest() {
             },
             error: function(error) {
                 console.log("\nError:", error);
-                $("#result").html(error.responseText);
+                // $("#result").html(error.responseText);
                 showErrorMessage();
                 hideLoadingGIF();
             }

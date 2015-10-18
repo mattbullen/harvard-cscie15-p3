@@ -108,12 +108,15 @@ function showSuccessMessage(users) {
     }
     
     // Render the HTML to the DOM.
-    $("#result").html(content);
+    $("#result").fadeOut();
+    window.setTimeout(function() { $("#result").html(content).fadeIn() }, 300);
+    
 }
 
 // Display an error message if a POST request was not successful.
 function showErrorMessage() {
-    $("#result").html('<p class="error">Server error!<br>Try again later.</p>');
+    $("#result").fadeOut();
+    window.setTimeout(function() { $("#result").html('<p class="error">Server error!<br>Try again later.</p>').fadeIn() }, 300);
 }
 
 // Set the set button functionality to request random users.
@@ -134,7 +137,8 @@ function setUsersRequest() {
         
         // Show an error message if no user details were selected, then end the request - no need for a server call in this case.
         if (!data) {
-            $("#result").html('<p class="error error-user-title">← No user details!</p><p class="error-user-message">Please select at least one type of user detail, then try again.</p>');
+            $("#result").fadeOut();
+            window.setTimeout(function() { $("#result").html('<p class="error error-user-title">← No user details!</p><p class="error-user-message">Please select at least one type of user detail, then try again.</p>').fadeIn() }, 300);
             return false;
         }
         

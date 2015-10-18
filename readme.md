@@ -17,7 +17,7 @@ TBD
 
 #### Details for teaching team
 
-Some of the default CSS used by Foundation doesn't validate or throws warnings on the [W3C Validator](https://jigsaw.w3.org/css-validator/).
+Some of the default CSS used by Foundation doesn't validate or throws warnings on the [W3C Validator](https://jigsaw.w3.org/css-validator/). The same happens for the "nano" CSS classes used by the [nanoScroller.js](https://github.com/jamesflorentino/nanoScrollerJS) plugin, found in the base.css file.
 
 #### Outside code
 

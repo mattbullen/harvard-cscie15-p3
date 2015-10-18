@@ -81,9 +81,8 @@
 /* Result Area */
 
 #result {
-    position: fixed;
-    bottom: 160px;
-    left: 447px;
+    width: 283px;
+    margin: 0px auto;
     border: 1px solid #c06c20;
 }
 

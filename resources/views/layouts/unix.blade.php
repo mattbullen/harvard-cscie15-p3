@@ -12,7 +12,7 @@
             <div id="description" class="large-12 columns">
                 <h3 id="description-title">Using the Unix Permissions Generator</h3>
                 <div id="description-content">
-                    <p class="description-content-paragraph">Select the permissions you'd like to set using the table below, then click the "Get the permissions!" button. The octal/chmod-ready version of the permissions will be displayed in the orange box below the button.</p>
+                    <p class="description-content-paragraph">Select the permissions to set using the table below, then use the "Get the permissions!" button to request the final permissions values, which will be displayed in octal/chmod-ready format in the orange box below the button.</p>
                 </div>
             </div>
             

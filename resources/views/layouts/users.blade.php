@@ -63,8 +63,8 @@
                     <div id="description">
                         <h3 id="description-title">Using the Random Users Generator</h3>
                         <div id="description-content">
-                            <p class="description-content-paragraph">Use the slider in the menu to the left to select the number of random users to generate, and use the checkboxes below it to select which user details to give each. The generator defaults to one user, but you can select up to twenty.</p>
-                            <p class="description-content-paragraph">Then click the "Get random users!" button above the menu, and the list of random users will be displayed in this panel. The list of users is left-click selectable and will scroll for easier copy/paste.</p>
+                            <p class="description-content-paragraph">Use the slider in the menu to the left to select the number of users to generate, and use the checkboxes below it to select which details to give each. The generator defaults to one user, but you can select up to twenty.</p>
+                            <p class="description-content-paragraph">Then click the "Get random users!" button above the menu, and the list of random users will be displayed in this panel. The list will be left-click selectable and will mouse scroll for easier copy/paste.</p>
                         </div>
                     </div>
                 </div>

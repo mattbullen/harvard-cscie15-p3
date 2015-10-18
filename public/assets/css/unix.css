@@ -16,7 +16,7 @@
 }
 
 .description-content-paragraph {
-    width: 800px;
+    width: 700px;
     margin: 0px auto;
     font-size: 18px;
 }
@@ -63,7 +63,7 @@
 
 #submit {
     width: 283px;
-    margin: 36px auto 50px auto;
+    margin: 36px auto 20px auto;
 }
 
 #button-post {

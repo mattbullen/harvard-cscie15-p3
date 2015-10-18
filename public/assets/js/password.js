@@ -1,10 +1,16 @@
 // Main page loading sequence.
 $(document).ready(function() {
+    highlightActiveTab();
     setZurb($(this));
     setMenu();
     setAccordion();
     setPasswordRequest();  
 });
+
+// Highlight the active menu tab
+function highlightActiveTab() {
+    $("#a-password").addClass("button-active");
+}
 
 // Start the Zurb Foundation 5 accordion and slider plugins.
 function setZurb(page) {

@@ -1,10 +1,16 @@
 // Main page loading sequence.
 $(document).ready(function() {
+    highlightActiveTab();
     setZurb($(this));
     setScroll();
     setMenu();
     setUsersRequest();
 });
+
+// Highlight the active menu tab
+function highlightActiveTab() {
+    $("#a-users").addClass("button-active");
+}
 
 // Start the Zurb Foundation 5 slider plugin.
 function setZurb(page) {

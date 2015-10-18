@@ -5,7 +5,7 @@ http://p3.matthewbullen.me
 
 #### Description
 
-A Laravel 5-based web app for generating lorem ipsum text, sample user profiles, and XKCD-style [high entropy passwords](https://xkcd.com/936/).
+A Laravel 5-based web app for generating lorem ipsum text, sample user profiles, Unix permissions, and XKCD-style [high entropy passwords](https://xkcd.com/936/).
 
 #### Demo
 

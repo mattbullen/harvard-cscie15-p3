@@ -204,7 +204,7 @@ img {
     background: #fff !important;
 }
 
-/* Scrollbar */
+/* Scrollbar - NOTE: THIS CSS IS PART OF THE NANOSCROLLER.JS PLUGIN AND DOESN'T VALIDATE */
 
 .nano {
     position: relative;

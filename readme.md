@@ -13,7 +13,7 @@ A Laravel 5-based web app for generating lorem ipsum text, random user profiles,
 
 #### Demo
 
-TBD
+http://www.screencast.com/t/ey2sAHwdj6nz
 
 #### Details for teaching team
 
